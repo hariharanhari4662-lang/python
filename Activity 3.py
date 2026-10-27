@@ -14,3 +14,23 @@ print("Train Name :", train_name)
 print("Seat Number :", seat_number)
 print("Ticket Price :", ticket_price)
 print("Journey Date :", journey_date)
+
+
+
+gst_percentage = 5
+gst_amount = (total_fare * gst_percentage) / 100
+print("GST Amount :", gst_amount)
+final_amount = total_fare + gst_amount
+print("Final Payable Amount :", final_amount)
+
+
+print("----------- Indian Railways Ticket -----------")
+print("Passenger Name\t\t  :", passenger_name)
+print("Train Name 	:", train_name)
+print("Seat Number	:", seat_number)
+print("Journey Date   :", journey_date)
+print("Passengers 	:", number_of_passengers)
+print("Ticket Fare	:", total_fare)
+print("GST Amount 	:", gst_amount)
+print("Final Amount   :", final_amount)
+print("----------------------------------------------")
