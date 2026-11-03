@@ -1,4 +1,4 @@
-#Perform Ticket Fare Calculations
+'''#Perform Ticket Fare Calculations
 number_of_passengers = 3
 ticket_price = 2450
 total_fare = number_of_passengers * ticket_price
@@ -33,4 +33,14 @@ print("Passengers 	:", number_of_passengers)
 print("Ticket Fare	:", total_fare)
 print("GST Amount 	:", gst_amount)
 print("Final Amount   :", final_amount)
-print("----------------------------------------------")
+print("----------------------------------------------")'''
+
+import keyword
+print(keyword.kwlist)
+
+
+
+
+
+
+
